@@ -7,7 +7,7 @@ RUN apt-get update && \
     apt-get clean
 
 # Crea los archivos en el directorio raíz del servidor Apache
-RUN echo 'HOLA SOY MªIRENE' > /var/www/html/index.html
+RUN echo 'HOLA SOY MªIRENE DSDE GITHUB' > /var/www/html/index.html
 
 RUN echo '<?php phpinfo(); ?>' > /var/www/html/info.php
 
